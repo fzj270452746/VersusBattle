@@ -1,0 +1,64 @@
+PODS:
+  - Adjust (5.4.1):
+    - Adjust/Adjust (= 5.4.1)
+  - Adjust/Adjust (5.4.1):
+    - AdjustSignature (= 3.47.0)
+  - AdjustSignature (3.47.0)
+  - OneSignal/OneSignal (5.2.14):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalLiveActivities
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalCore (5.2.14)
+  - OneSignal/OneSignalExtension (5.2.14):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalLiveActivities (5.2.14):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalUser
+  - OneSignal/OneSignalNotifications (5.2.14):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalExtension
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalOSCore (5.2.14):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalOutcomes (5.2.14):
+    - OneSignal/OneSignalCore
+  - OneSignal/OneSignalUser (5.2.14):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalNotifications
+    - OneSignal/OneSignalOSCore
+    - OneSignal/OneSignalOutcomes
+  - ReachabilitySwift (5.2.4)
+  - SDWebImage (5.21.1):
+    - SDWebImage/Core (= 5.21.1)
+  - SDWebImage/Core (5.21.1)
+
+DEPENDENCIES:
+  - Adjust
+  - OneSignal/OneSignal (< 6.0, >= 5.2.9)
+  - ReachabilitySwift
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - OneSignal
+    - ReachabilitySwift
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Adjust: 1ff981e84ae1306f8cce30e0661b3997dad1b85c
+  AdjustSignature: d634fc6b66295c38807f3b4e50978c1f72355950
+  OneSignal: 6ff272c3d1775fb7eec3a2ffed9dc7e01963aacc
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+  SDWebImage: f29024626962457f3470184232766516dee8dfea
+
+PODFILE CHECKSUM: e9705a751e5c2c7a12b0c866dcfd5334ccf19d34
+
+COCOAPODS: 1.16.2

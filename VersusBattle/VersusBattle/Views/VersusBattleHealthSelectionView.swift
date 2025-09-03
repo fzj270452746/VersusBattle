@@ -34,7 +34,7 @@ struct VersusBattleHealthSelectionView: View {
                 )
                 .ignoresSafeArea()
                 
-                VStack(spacing: 40) {
+                VStack(spacing: 20) {
                     // Header
                     VStack(spacing: 16) {
                         VersusBattleIconButton(
@@ -56,7 +56,7 @@ struct VersusBattleHealthSelectionView: View {
                     Spacer()
                     
                     // Health display
-                    VStack(spacing: 24) {
+                    VStack(spacing: 15) {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20)
                                 .fill(Color.white.opacity(0.1))

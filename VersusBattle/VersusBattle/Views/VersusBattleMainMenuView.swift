@@ -155,7 +155,7 @@ struct VersusBattleMainMenuView: View {
     
     private var versusBattleGameRulesText: String {
         """
-        🀄️ MAHJONG VERSUS RULES 🀄️
+        🀄️ FISH MAHJONG VERSUS RULES 🀄️
         
         CARD TYPES:
         • Damage Cards: Bing (筒), Tenth (万), Slip (条) with values 1-9
